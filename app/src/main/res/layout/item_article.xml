@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background= "#EEEEEE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shadow1">
+
+        <include layout="@layout/common_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </include>
+
+        <LinearLayout
+            android:id="@+id/article_click"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/article_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="南极旅行的体验是怎么样的？"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:padding="5dp"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/article_subtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:lineSpacingMultiplier="1.3"
+                    android:ellipsize="end"
+                    android:text="2016年春节，我跟先生选择了去南极过年。归来后我说了一句话————而立之年知南而今,是我30年人生最明智的决定！"
+                    android:textSize="12dp"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <include
+            layout="@layout/common_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </include>
+
+    </LinearLayout>
+
+</FrameLayout>

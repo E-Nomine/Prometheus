@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background= "#EEEEEE">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shadow1">
+
+        <include layout="@layout/common_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </include>
+
+        <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+            android:id="@+id/video_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/image_3"/>
+        <include
+            layout="@layout/common_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </include>
+
+    </LinearLayout>
+
+</LinearLayout>
