@@ -33,6 +33,7 @@ public class MashupPresenter extends BasePresenter<IMashupView> {
     public MashupPresenter(Context context, IMashupView iView, int fragment_type) {
         super(context, iView);
         this.type = fragment_type;
+
     }
 
     public void loadMashupDatas() {

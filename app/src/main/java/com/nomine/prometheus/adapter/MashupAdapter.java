@@ -94,7 +94,7 @@ public class MashupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         final BaseViewHolder baseViewHolder = (BaseViewHolder) holder;
-        final BaseModel baseModel  = (BaseModel) data.get(position);
+        final BaseModel baseModel  = data.get(position);
         baseViewHolder.commit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
