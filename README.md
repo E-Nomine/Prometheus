@@ -1,6 +1,7 @@
 # Prometheus
 ## 简介
 一款使用了`RxJava`、`RxJava`、`butterknife`和`glide`的Android内容聚合应用。
+
 使用了Andorid5.0的`recyclerview`、`cardview`等。
 
 可以读文章、赏美图、听音乐、看视频。
