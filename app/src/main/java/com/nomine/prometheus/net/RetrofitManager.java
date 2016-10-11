@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by E Nomine on 2016/3/18.
  */
 public class RetrofitManager {
-    public static final String BASE_URL = "http://192.168.155.1:80";
+    public static final String BASE_URL = "http://138.128.193.181:8888/";
 
     private Retrofit retrofit = null;
     private static RetrofitManager retrofitManager;
